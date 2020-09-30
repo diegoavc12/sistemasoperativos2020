@@ -6,7 +6,7 @@ void signalHandler(int signum){
 }
 
 int main(){
-    signal(2,signalHandler);
+    signal(17,signalHandler);
     while(1){
         sleep(2);
         printf("trabajando\n");
